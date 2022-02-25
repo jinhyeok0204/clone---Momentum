@@ -1,0 +1,9 @@
+#quotes{
+    position: fixed;
+    bottom: 15px;
+
+}
+
+#quotes #author{
+    text-align: justify;
+}
