@@ -1,0 +1,55 @@
+#weather{
+    position: absolute;
+    top:5px; right :10px;
+    font-size: 15px;
+}
+#temp{
+    display: inline-block;
+    margin: 0;
+    letter-spacing: 2px;
+}
+#weatherIcon {
+    width: 0px;
+    margin: 0px;
+    display:inline;
+}
+
+.Clouds::before{
+    font: var(--fa-font-solid);
+    content: "\f0c2";
+}
+
+.Clear::before{
+    font: var(--fa-font-solid);
+    content:"\f185"
+}
+
+.Rain::before{
+    font: var(--fa-font-solid);
+    content:"\f75c"
+}
+
+.Snow::before{
+    font: var(--fa-font-solid);
+    content:"\f2dc"
+}
+
+.Thunderstorm::before{
+    font: var(--fa-font-solid);
+    content:"\f76c"
+}
+
+.Atmosphere::before{
+    font: var(--fa-font-solid);
+    content:"\f75f"
+}
+
+.Default::before{
+    font: var(--fa-font-solid);
+    content:"\f059"
+}
+#area{
+    font-size: 12px;
+    margin-top: 2px;
+    text-align: center;
+}

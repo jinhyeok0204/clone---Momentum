@@ -1,9 +1,11 @@
 #quotes{
     position: fixed;
     bottom: 15px;
-
 }
-
+#quotes:hover{
+    cursor: pointer;
+}
 #quotes #author{
-    text-align: justify;
+    text-align: center;
+    opacity: 0.8;
 }

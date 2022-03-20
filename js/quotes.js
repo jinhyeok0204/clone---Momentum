@@ -57,6 +57,7 @@ function mouseOverQuote(event){
     authorSpace.classList.remove(HIDDEN_CLASS);
     authorSpace.innerHTML = `- ${todaysQuote.author} -`;
 }
+
 function mouseLeave(event){
     authorSpace.innerHTML = "";
     authorSpace.classList.add(HIDDEN_CLASS);
